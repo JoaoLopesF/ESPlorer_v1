@@ -32,6 +32,7 @@ The program is for Arduino ESP32, have advanced features as:
 First have some library dependencies (please help the authors give a github start on it):
 
     - Arduino websocket:        https://github.com/Links2004/arduinoWebSockets
+    - ESP32MotorControl         https://github.com/JoaoLopesF/ESP32MotorControl
     - RemoteDebug:              https://github.com/JoaoLopesF/RemoteDebug
     - SerialDebug (optional):   https://github.com/JoaoLopesF/SerialDebug
 
