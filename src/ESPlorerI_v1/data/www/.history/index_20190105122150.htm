@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ESPlorer I Robot</title>
+        <!-- <link rel="manifest" href="manifest.json"> -->
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="nipplejs.min.js"></script>
+        <script src="gauge.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body scroll="no" style="overflow: hidden" onload="processOnLoad();"> 
+         <div class="title">
+            <span id="spanTitle">Robot ESPLorer I<span id="spanVersion"></span></span>
+            <br>
+            <span id="spanConnection"><span id="spanConnectionStatus"></span></span>
+        </div>
+        <canvas id="canvasCameraQQVGA" width="160" height="120"></canvas>
+        <div class="camera" id="divCamera">
+            <span id="spanCamera">Camera</span>
+            <img id="imgCameraOnOff" src="on_off.png" onclick="sendWS('camonoff');">
+            <canvas id="canvasCameraDisplay" width="400" height="300"></canvas>                 
+        </div>
+        <div class="gaugeMotorLeft" id="divGaugeMotorLeft">
+            <canvas id="canvasGaugeMotorLeft" width="25%" height="25%"></canvas>                 
+            <span id="spanMotorLeft">Left motor</span>                
+            <span id="spanMotorLeftSpeed">Stop</span>                
+        </div>
+        <div class="joystickMotor" id="divJoystickMotor">
+            <span id="spanJoystickMotorHeader"></span>
+            <span id="spanJoystickMotorFooter"></span>
+        </div>
+        <div class="gaugeMotorRight" id="divGaugeMotorRight">
+            <canvas id="canvasGaugeMotorRight" width="25%" height="25%"></canvas> 
+            <span id="spanMotorRight">Right motor</span>                
+            <span id="spanMotorRightSpeed">Stop</span>                
+        </div>    
+        <div class="footer">
+                <img id="imgFast" src="fast.png" onclick="toolbarAction('fast');">
+                <span id="spanSpeedMode">1/1</span>
+                <img id="imgSlow" src="slow.png" onclick="toolbarAction('slow');">   
+                <img id="imgSpacer" src="toolbar_spacer.png">   
+                <img id="imgLights" src="lights_off.png" onclick="toolbarAction('lights');">
+                <img id="imgSpacer" src="toolbar_spacer.png">   
+                <img id="imgReset" src="reset.png" onclick="toolbarAction('reset');">>
+                <img id="imgSpacer" src="toolbar_spacer.png">   
+                <img id="imgExit" src="exit.png" onclick="toolbarAction('exit');">
+        </div>
+    </body>
+</html>

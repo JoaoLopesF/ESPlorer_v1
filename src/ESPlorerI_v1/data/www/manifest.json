@@ -1,0 +1,14 @@
+{
+  "short_name": "ESPlorer I Robot",
+  "name": "ESPlorer I Robot",
+  "icons": [
+    {
+      "src": "/robot.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "http://192.168.4.1",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
