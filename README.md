@@ -42,7 +42,7 @@ After install it, just upload this firmware to ESP32
 Schematics of robot controller:
 
 ![Schematics]
-(images/Schematic_ESPlorer-v1.png)
+(https://github.com/JoaoLopesF/ESPlorer_v1/blob/master/images/Schematic_ESPlorer-v1.png)
 
 ### Knew issues
 
