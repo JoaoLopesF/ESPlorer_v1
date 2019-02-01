@@ -47,14 +47,14 @@ Schematics of robot controller:
 ### Knew issues
 
   - Wrong colors on camera
-  - Not workin on L298 yet
+  - Not working on L298 yet
   - Documentation is in construction
 
 ## How it looks
 
 See this firmware in action on ESPlorer I robot:
 
-[![Youtube](https://www.youtube.com/vi/KUckqEnlK_E/0.jpg)](https://https://www.youtube.com/watch?v=KUckqEnlK_E)
+[![Youtube](https://img.youtube.com/vi/KUckqEnlK_E/0.jpg)](https://https://www.youtube.com/watch?v=KUckqEnlK_E)
 
 ## Releases
 
